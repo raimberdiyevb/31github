@@ -44,15 +44,15 @@ public class FreqStack {
 class Freq{
     public static void main(String[] args) {
         FreqStack freqStack = new FreqStack();
-        freqStack.push(5);
-        freqStack.push(7);
-        freqStack.push(5);
+//        freqStack.push(5);
+//        freqStack.push(7);
+//        freqStack.push(5);
         freqStack.push(7);
         freqStack.push(4);
         freqStack.push(5);
-        System.out.println(freqStack.pop());
-        System.out.println(freqStack.pop());
-        System.out.println(freqStack.pop());
+//        System.out.println(freqStack.pop());
+//        System.out.println(freqStack.pop());
+//        System.out.println(freqStack.pop());
         System.out.println(freqStack.pop());
     }
 }
