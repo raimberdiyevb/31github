@@ -1,9 +1,6 @@
 public class CheckIfOneStringSwapCanMakeStringsEqual {
     public static void main(String[] args) {
         System.out.println(areAlmostEqual("bank","kanb"));
-        System.out.println(areAlmostEqual("attack","defend"));
-        System.out.println(areAlmostEqual("bank","bank"));
-        System.out.println(areAlmostEqual("bankb","kanbb"));
     }
     public static boolean areAlmostEqual(String s1, String s2) {
         boolean res = false;

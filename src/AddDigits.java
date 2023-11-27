@@ -1,6 +1,8 @@
 public class AddDigits {
     public static void main(String[] args) {
         System.out.println(addDigits(38));
+        System.out.println(addDigits(58));
+        System.out.println(addDigits(78));
     }
     public static int addDigits(int num) {
         int tempRes = 0;

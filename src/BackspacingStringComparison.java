@@ -1,6 +1,5 @@
 public class BackspacingStringComparison {
     public static void main(String[] args) {
-        System.out.println(backspaceCompare("ab##","c#d#"));
     }
     public static boolean backspaceCompare(String s, String t) {
         if(s.equals(t)) return true;
