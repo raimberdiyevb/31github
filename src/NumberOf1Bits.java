@@ -1,7 +1,6 @@
 public class NumberOf1Bits {
     public static void main(String[] args) {
-        System.out.println(hammingWeight(00000000000000000000000000001011));
-        System.out.println(hammingWeight(00000000000000000000000010000000));
+        System.out.println(hammingWeight2(00000000000000000000000000001011));
     }
     public static int hammingWeight(int n) {
             int count = 0;
@@ -10,5 +9,13 @@ public class NumberOf1Bits {
                 n = n >>> 1;
             }
             return count;
+    }
+    public static int hammingWeight2(int n) {
+        int res = 0;
+        for( char c : Integer.toBinaryString(n).toCharArray()){
+            if(c=='1')
+                res++;
+        }
+        return res;
     }
 }
